@@ -6,15 +6,15 @@ def create_an_array
   pretty_animals = ["cat", "dog", "bird", "mouse"]
 end
 
-# def add_element_to_end_of_array(array, element)
-#   array = ["cat", "dog", "bird", "mouse"]
-#   array << element
-# end
-
-def add_element_to_end_of_array(pretty_animals, bear)
-  pretty_animals = ["cat", "dog", "bird", "mouse"]
-  pretty_animals << bear
+def add_element_to_end_of_array(array, element)
+  array = ["cat", "dog", "bird", "mouse"]
+  array << element
 end
+
+# def add_element_to_end_of_array(pretty_animals, bear)
+#   pretty_animals = ["cat", "dog", "bird", "mouse"]
+#   pretty_animals << bear
+# end
 
 def add_element_to_start_of_array(array, element)
   array = ["cat", "dog", "bird", "mouse"]
